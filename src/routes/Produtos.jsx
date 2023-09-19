@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { ListaProdutosExterna } from "../components/ListaProdutosExterna";
+import { ListaProdutos } from "../components/ListaProdutos";
 import { Link } from "react-router-dom";
 
 export default function Produtos() {
@@ -10,7 +10,7 @@ export default function Produtos() {
     
     //Estrutura que recebe a lista de produtos externa e repassa para uma lista local.
     useEffect(()=>{
-      setListaProdutosLocal(ListaProdutosExterna);
+      setListaProdutosLocal(ListaProdutos);
     },[]);
 
   return (
