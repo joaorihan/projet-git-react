@@ -2,6 +2,9 @@ import { useEffect, useState } from "react";
 import { ListaProdutosExterna } from "../components/ListaProdutosExterna";
 import { Link } from "react-router-dom";
 import styles from "./Produtos.module.css";
+import {AiFillEdit as Editar} from "react-icons/ai"
+import {CiCircleRemove as Remover} from "react-icons/ci"
+
 
 export default function Produtos() {
 
@@ -37,7 +40,7 @@ export default function Produtos() {
                       <td>{item.nome}</td>
                       <td>{item.desc}</td>
                       <td>{item.preco}</td>
-                      <td> <Link to={`/editar/produtos/${item.id}`}>Editar</Link> | <Link to={`/excluir/produtos/${item.id}`}>Excluir</Link> </td>
+                      <td> <Link to={`/editar/produtos/${item.id}`}> <Editar/> </Link> | <Link to={`/excluir/produtos/${item.id}`}><Remover/></Link> </td>
                     </tr>
                   ))
                 }

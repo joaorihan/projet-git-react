@@ -16,22 +16,24 @@
     }
 
     & nav{
-        float: right;
         
         & ul{
             list-style: none;
 
             & li{
                 display: inline-block;
-                margin: 5% 0 0 0;
-                
+               
                 & a{
                     text-decoration: none;
                     color: #fff;
                     display: block;
                     font-weight: bold;
                     padding: 50px 10px;
-                    background-color: aquamarine;
+
+                    &:hover{
+                        background-color: #fff;
+                        color: #0d0d0d;
+                    }
                 }
             }
         }
