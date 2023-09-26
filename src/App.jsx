@@ -1,31 +1,20 @@
 import Cabecalho from "./components/Cabecalho";
-import Conteudo from "./components/Conteudo";
-import Footer from "./components/footer";
-import reactLogo from "./assets/react.svg";
+import Rodape from "./components/Rodape";
 import { Outlet } from "react-router-dom";
-
+import styles from "./App.module.css";
 
 export default function App() {
-
-  let reactLogoAlt = "React Logo";
-
   //Lista de links redes sociais
 
-  let listaLinks =[<li>Github</li>, <li>X</li>, <li>Reddit</li> ];
+  let listaLinks = [<li>Github</li>, <li>X</li>, <li>Reddit</li>];
 
   return (
     <>
       <div className="container">
-
-        <Cabecalho/>
-        {/* <img src={reactLogo} alt={reactLogoAlt} /> */}
-
-        <Conteudo reactLogoProps={reactLogo} reactLogoAltProps={reactLogoAlt}/>
-        <Outlet/>
-        <Footer listaProps={listaLinks}/>
-
-
+        <Cabecalho />
+        <Outlet />
+        <Rodape listaProps={listaLinks} />
       </div>
     </>
-  )
+  );
 }
