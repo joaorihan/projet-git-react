@@ -1,20 +1,24 @@
 import { useEffect, useState } from "react";
-import { ListaProdutosExterna } from "../components/ListaProdutosExterna";
 import { Link } from "react-router-dom";
-import styles from "./Produtos.module.css";
-import {AiFillEdit as Editar} from "react-icons/ai"
-import {CiCircleRemove as Remover} from "react-icons/ci"
-
+import styles from  "./Produtos.module.css"
+import {AiFillEdit} from "react-icons/ai"
+import {CiCircleRemove} from "react-icons/ci"
 
 export default function Produtos() {
 
     document.title = "Lista de Produtos";
 
     const [listaProdutosLocal, setListaProdutosLocal] = useState([{}]);
+
+
     
     //Estrutura que recebe a lista de produtos externa e repassa para uma lista local.
     useEffect(()=>{
-      setListaProdutosLocal(ListaProdutosExterna);
+      fetch("http://localhost:5000/produtos")
+      .then((response) => response.json())
+      .then((response) => setListaProdutosLocal(response))
+      .catch((error) => console.log(error));
+      // setListaProdutosLocal(ListaProdutosExterna);
     },[]);
 
   return (
@@ -29,7 +33,7 @@ export default function Produtos() {
                   <th>NOME</th>
                   <th>DESCRIÇÃO</th>
                   <th>PREÇO</th>
-                  <th>EDITAR / EXCLUIR</th>
+                  <th>EDITAR</th>
                 </tr>
               </thead>
               <tbody>
@@ -40,7 +44,7 @@ export default function Produtos() {
                       <td>{item.nome}</td>
                       <td>{item.desc}</td>
                       <td>{item.preco}</td>
-                      <td> <Link to={`/editar/produtos/${item.id}`}> <Editar/> </Link> | <Link to={`/excluir/produtos/${item.id}`}><Remover/></Link> </td>
+                      <td> <Link to={`/editar/produtos/${item.id}`}> <AiFillEdit/> </Link> | <Link to={`/excluir/produtos/${item.id}`}><CiCircleRemove/></Link> </td>
                     </tr>
                   ))
                 }

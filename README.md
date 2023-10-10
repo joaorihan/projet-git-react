@@ -8,19 +8,19 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
 
-# Iniciando a criação de ROTAS com react-router-dom.
-## Instalando a dependência no projeto
+# Iniciando a criação de ROTAS com react-router-dom
+## Instalando a dependencia no projeto 
 - npm install react-router-dom;
 ## Criar a pasta routes
-- Criar a pasta routes.
+-Criar a pasta routes
 ## As rotas ou páginas
-- Criando as rotas/páginas [Home, EditarProdutos, Produtos e Erro404].
-## Importar os objetos das rotas no main.jsx e dos componentes de rotas.
+-Criando as rotas/paginas [HOME, EditarProdutos, Produtos e Erro404]
+## Importar os onjetos da rotas no main.jsx
 - import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-- import Home..., import Produtos..., import EditarProdutos..., import Erro404...
-## Criando o objeto de rotas com o createBrowserRouter.
-- const router = createBrowserRouter([ ... ]);
-## Trocar o componente <App/> pelo componente <RouterProvider/> no ReactDOM.render.
+- import Home e outros
+## Criando o objeto de rotas com o crateBrowserRouter.
+- const router = createBrowserRouter();
+## Trocar o componente <App/> pelo componte <RouterProvider/> no ReactDOM.render.
 - ReactDOM.render(
     <React.StrictMode>
     +     <RouterProvider/>
