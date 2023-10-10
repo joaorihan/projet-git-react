@@ -1,6 +1,7 @@
 import { Link, useLocation } from "react-router-dom";
-import styles from "./Cabecalho.module.css";
 import "./Cabecalho.scss";
+import styles from "./Cabecalho.module.css";
+
 
 export default function Cabecalho() {
   

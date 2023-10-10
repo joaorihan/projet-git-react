@@ -35,8 +35,10 @@
 
     & tfoot{
         & tr{
-            border: 2px solid #ccc;
-            text-align: center;
+            & td{
+                border: 2px solid #ccc;
+                text-align: center;
+            }
         }
     }
 
