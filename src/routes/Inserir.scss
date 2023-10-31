@@ -1,0 +1,52 @@
+
+.main_div{
+    text-align: center;
+    justify-content: center;
+    border: 5px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: lightcyan;
+    font-size: 20px;
+}
+
+legend{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 6px;
+}
+.fichas{
+    text-align: left;
+    margin-left: 40%;
+    padding: 3px;
+    
+}
+.labeltexto1{
+    padding: 20px;
+}
+.labeltexto2{
+    padding: 20px;
+}
+.labeltexto3{
+    padding: 20px;
+}
+
+
+.btn1{
+    background-color: lightgreen;
+    color: black; 
+
+}
+.btn1:hover{
+    border: solid green 2px;
+    border-radius: 7px;
+    
+}
+.btn2{
+    background-color: rgb(225, 70, 70);
+    color: black;
+}
+.btn2:hover{
+    border: solid rgb(96, 2, 2) 2px;
+    border-radius: 7px;
+    
+}
