@@ -1,6 +1,6 @@
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
-
+import Login from './routes/Login.jsx';
 
 
 //BLOCO DE ROTAS
@@ -20,6 +20,7 @@ const router = createBrowserRouter([
     {path: "/editar/produtos/:id", element: <EditarProdutos/>},
     {path: "/excluir/produtos/:id", element: <ExcluirProdutos/>},
     {path: "/inserir/produtos/", element: <InserirProduto/>},
+    {path: "/login", element: <Login/>}
   ] 
 }
 ]);

@@ -1,16 +1,618 @@
 {
   "produtos": [
     {
+      "nome": "teclado",
+      "desc": "gamer",
+      "preco": "1500",
+      "id": 1
+    },
+    {
+      "nome": "Geladeira",
+      "desc": "Brastemp Cerveja",
+      "preco": "1000",
+      "id": 2
+    }
+  ],
+  "usuarios": [
+    {
+      "id": 2,
+      "email": "chandlerfernandes@hotmail.com",
+      "name": "Chandler Fernandes",
+      "city": "Camaragibe"
+    },
+    {
       "id": 3,
-      "nome": "Mouse",
-      "desc": "Mouse Óptico 6 Botões.",
-      "preco": 220
+      "email": "ignacianonato@gmail.com",
+      "name": "Ignacia Nonato",
+      "city": "Anápolis"
     },
     {
       "id": 4,
-      "nome": "Mouse Pad",
-      "desc": "Mouse Pad Gamer 80 x 100.",
-      "preco": 100
+      "email": "noellemariano6632@gmail.com",
+      "name": "Noelle Mariano",
+      "city": "Bacabal"
+    },
+    {
+      "id": 5,
+      "email": "conanmorais@gmail.com",
+      "name": "Conan Morais",
+      "city": "Imperatriz"
+    },
+    {
+      "id": 6,
+      "email": "bellnunes@hotmail.com",
+      "name": "Bell Nunes",
+      "city": "Mauá"
+    },
+    {
+      "id": 7,
+      "email": "constancedeabreu@hotmail.com",
+      "name": "Constance de Abreu",
+      "city": "Recife"
+    },
+    {
+      "id": 8,
+      "email": "nicholedaluz6746@hotmail.com",
+      "name": "Nichole da Luz",
+      "city": "Luziânia"
+    },
+    {
+      "id": 9,
+      "email": "erasmuspereira@gmail.com",
+      "name": "Erasmus Pereira",
+      "city": "Ponta Grossa"
+    },
+    {
+      "id": 10,
+      "email": "rajamelo4455@hotmail.com",
+      "name": "Raja Melo",
+      "city": "Imperatriz"
+    },
+    {
+      "id": 11,
+      "email": "hollydasdores3318@gmail.com",
+      "name": "Holly Das Dores",
+      "city": "Belo Horizonte"
+    },
+    {
+      "id": 12,
+      "email": "amayadosanjos@hotmail.com",
+      "name": "Amaya dos Anjos",
+      "city": "Anápolis"
+    },
+    {
+      "id": 13,
+      "email": "richardamaral@hotmail.com",
+      "name": "Richard Amaral",
+      "city": "Ananindeua"
+    },
+    {
+      "id": 14,
+      "email": "melvinpires@gmail.com",
+      "name": "Melvin Pires",
+      "city": "Vitória da Conquista"
+    },
+    {
+      "id": 15,
+      "email": "hashimdosanjos@gmail.com",
+      "name": "Hashim dos Anjos",
+      "city": "Itapipoca"
+    },
+    {
+      "id": 16,
+      "email": "samsonalmeida1987@hotmail.com",
+      "name": "Samson Almeida",
+      "city": "Guarapuava"
+    },
+    {
+      "id": 17,
+      "email": "irisbezerra@hotmail.com",
+      "name": "Iris Bezerra",
+      "city": "Campos dos Goytacazes"
+    },
+    {
+      "id": 18,
+      "email": "evangelinebarbosa7425@hotmail.com",
+      "name": "Evangeline Barbosa",
+      "city": "Juazeiro"
+    },
+    {
+      "id": 19,
+      "email": "cadmanvasconcelos4683@hotmail.com",
+      "name": "Cadman Vasconcelos",
+      "city": "Maringá"
+    },
+    {
+      "id": 20,
+      "email": "bevisdasneves@gmail.com",
+      "name": "Bevis Das Neves",
+      "city": "Crato"
+    },
+    {
+      "id": 21,
+      "email": "rudyardnonato5525@gmail.com",
+      "name": "Rudyard Nonato",
+      "city": "Caxias"
+    },
+    {
+      "id": 22,
+      "email": "nolancabral@gmail.com",
+      "name": "Nolan Cabral",
+      "city": "Ilhéus"
+    },
+    {
+      "id": 23,
+      "email": "olgaferraz2207@hotmail.com",
+      "name": "Olga Ferraz",
+      "city": "Caruaru"
+    },
+    {
+      "id": 24,
+      "email": "stewartnonato@gmail.com",
+      "name": "Stewart Nonato",
+      "city": "Betim"
+    },
+    {
+      "id": 25,
+      "email": "colereis@gmail.com",
+      "name": "Cole Reis",
+      "city": "Barra do Corda"
+    },
+    {
+      "id": 26,
+      "email": "aldencoelho@hotmail.com",
+      "name": "Alden Coelho",
+      "city": "Novo Hamburgo"
+    },
+    {
+      "id": 27,
+      "email": "tarasantiago@hotmail.com",
+      "name": "Tara Santiago",
+      "city": "Osasco"
+    },
+    {
+      "id": 28,
+      "email": "yettadomingues@gmail.com",
+      "name": "Yetta Domingues",
+      "city": "Águas Lindas de Goiás"
+    },
+    {
+      "id": 29,
+      "email": "neromaciel@gmail.com",
+      "name": "Nero Maciel",
+      "city": "Anápolis"
+    },
+    {
+      "id": 30,
+      "email": "evangelinenonato@gmail.com",
+      "name": "Evangeline Nonato",
+      "city": "Novo Hamburgo"
+    },
+    {
+      "id": 31,
+      "email": "garyrodrigues2424@gmail.com",
+      "name": "Gary Rodrigues",
+      "city": "Maringá"
+    },
+    {
+      "id": 32,
+      "email": "shaddepaula@hotmail.com",
+      "name": "Shad de Paula",
+      "city": "Nova Iguaçu"
+    },
+    {
+      "id": 33,
+      "email": "igorpeixoto9476@gmail.com",
+      "name": "Igor Peixoto",
+      "city": "Belém"
+    },
+    {
+      "id": 34,
+      "email": "shayazevedo@gmail.com",
+      "name": "Shay Azevedo",
+      "city": "João Pessoa"
+    },
+    {
+      "id": 35,
+      "email": "garydonascimento@gmail.com",
+      "name": "Gary do Nascimento",
+      "city": "Mauá"
+    },
+    {
+      "id": 36,
+      "email": "kionanunes4904@hotmail.com",
+      "name": "Kiona Nunes",
+      "city": "Petrolina"
+    },
+    {
+      "id": 37,
+      "email": "troycamargo6362@gmail.com",
+      "name": "Troy Camargo",
+      "city": "Caruaru"
+    },
+    {
+      "id": 38,
+      "email": "nathanielmarinho@gmail.com",
+      "name": "Nathaniel Marinho",
+      "city": "Imperatriz"
+    },
+    {
+      "id": 39,
+      "email": "beckdacruz@gmail.com",
+      "name": "Beck da Cruz",
+      "city": "Guarapuava"
+    },
+    {
+      "id": 40,
+      "email": "xanderdebrito@hotmail.com",
+      "name": "Xander de Brito",
+      "city": "Caruaru"
+    },
+    {
+      "id": 41,
+      "email": "shoshanaferreira@hotmail.com",
+      "name": "Shoshana Ferreira",
+      "city": "Bragança"
+    },
+    {
+      "id": 42,
+      "email": "hadleydemoura7765@gmail.com",
+      "name": "Hadley de Moura",
+      "city": "Piracicaba"
+    },
+    {
+      "id": 43,
+      "email": "feliciadecastro@hotmail.com",
+      "name": "Felicia de Castro",
+      "city": "Uberlândia"
+    },
+    {
+      "id": 44,
+      "email": "ingadealmeida@gmail.com",
+      "name": "Inga de Almeida",
+      "city": "Aparecida de Goiânia"
+    },
+    {
+      "id": 45,
+      "email": "damianfagundes2787@hotmail.com",
+      "name": "Damian Fagundes",
+      "city": "Colombo"
+    },
+    {
+      "id": 46,
+      "email": "hiramrosa8719@gmail.com",
+      "name": "Hiram Rosa",
+      "city": "Jaboatão dos Guararapes"
+    },
+    {
+      "id": 47,
+      "email": "mackensiemaia9286@gmail.com",
+      "name": "MacKensie Maia",
+      "city": "Rio de Janeiro"
+    },
+    {
+      "id": 48,
+      "email": "keatoncarneiro@gmail.com",
+      "name": "Keaton Carneiro",
+      "city": "Recife"
+    },
+    {
+      "id": 49,
+      "email": "donovanamorim1412@gmail.com",
+      "name": "Donovan Amorim",
+      "city": "Canoas"
+    },
+    {
+      "id": 50,
+      "email": "garthrezende@hotmail.com",
+      "name": "Garth Rezende",
+      "city": "Crato"
+    },
+    {
+      "id": 51,
+      "email": "jemimasilveira151@hotmail.com",
+      "name": "Jemima Silveira",
+      "city": "Petrolina"
+    },
+    {
+      "id": 52,
+      "email": "quinntrindade3578@gmail.com",
+      "name": "Quinn Trindade",
+      "city": "Anápolis"
+    },
+    {
+      "id": 53,
+      "email": "lenoremacedo@gmail.com",
+      "name": "Lenore Macedo",
+      "city": "Belford Roxo"
+    },
+    {
+      "id": 54,
+      "email": "noblepinheiro6905@hotmail.com",
+      "name": "Noble Pinheiro",
+      "city": "Diadema"
+    },
+    {
+      "id": 55,
+      "email": "elijahcabral1233@gmail.com",
+      "name": "Elijah Cabral",
+      "city": "Santarém"
+    },
+    {
+      "id": 56,
+      "email": "paulmarques@gmail.com",
+      "name": "Paul Marques",
+      "city": "São João de Meriti"
+    },
+    {
+      "id": 57,
+      "email": "tashyapinheiro@hotmail.com",
+      "name": "Tashya Pinheiro",
+      "city": "Caucaia"
+    },
+    {
+      "id": 58,
+      "email": "alexismoura@gmail.com",
+      "name": "Alexis Moura",
+      "city": "João Pessoa"
+    },
+    {
+      "id": 59,
+      "email": "murphycampos@hotmail.com",
+      "name": "Murphy Campos",
+      "city": "Santa Inês"
+    },
+    {
+      "id": 60,
+      "email": "alexandradantas@gmail.com",
+      "name": "Alexandra Dantas",
+      "city": "Bayeux"
+    },
+    {
+      "id": 61,
+      "email": "briandemelo488@gmail.com",
+      "name": "Brian de Melo",
+      "city": "Feira de Santana"
+    },
+    {
+      "id": 62,
+      "email": "corasantana1924@hotmail.com",
+      "name": "Cora Santana",
+      "city": "Ipatinga"
+    },
+    {
+      "id": 63,
+      "email": "gwendolynmarques6948@gmail.com",
+      "name": "Gwendolyn Marques",
+      "city": "Juazeiro"
+    },
+    {
+      "id": 64,
+      "email": "damonbraz@gmail.com",
+      "name": "Damon Braz",
+      "city": "Cabo de Santo Agostinho"
+    },
+    {
+      "id": 65,
+      "email": "hopegaldino7318@hotmail.com",
+      "name": "Hope Galdino",
+      "city": "Camaçari"
+    },
+    {
+      "id": 66,
+      "email": "tananogueira9407@gmail.com",
+      "name": "Tana Nogueira",
+      "city": "Montes Claros"
+    },
+    {
+      "id": 67,
+      "email": "silasfaria1140@hotmail.com",
+      "name": "Silas Faria",
+      "city": "Niterói"
+    },
+    {
+      "id": 68,
+      "email": "colefarias1755@hotmail.com",
+      "name": "Cole Farias",
+      "city": "Campos dos Goytacazes"
+    },
+    {
+      "id": 69,
+      "email": "dariusfernandes1158@hotmail.com",
+      "name": "Darius Fernandes",
+      "city": "Piracicaba"
+    },
+    {
+      "id": 70,
+      "email": "kimberleyamaral@gmail.com",
+      "name": "Kimberley Amaral",
+      "city": "Anápolis"
+    },
+    {
+      "id": 71,
+      "email": "lanedaschagas6277@hotmail.com",
+      "name": "Lane Das Chagas",
+      "city": "Itajaí"
+    },
+    {
+      "id": 72,
+      "email": "holmessouza@hotmail.com",
+      "name": "Holmes Souza",
+      "city": "São Luís"
+    },
+    {
+      "id": 73,
+      "email": "kevynalmeida886@hotmail.com",
+      "name": "Kevyn Almeida",
+      "city": "Cabo de Santo Agostinho"
+    },
+    {
+      "id": 74,
+      "email": "samsongonzaga@hotmail.com",
+      "name": "Samson Gonzaga",
+      "city": "Mauá"
+    },
+    {
+      "id": 75,
+      "email": "danielledemoraes@hotmail.com",
+      "name": "Danielle de Moraes",
+      "city": "Duque de Caxias"
+    },
+    {
+      "id": 76,
+      "email": "jocelynfranco3298@gmail.com",
+      "name": "Jocelyn Franco",
+      "city": "Ribeirão Preto"
+    },
+    {
+      "id": 77,
+      "email": "maxwellmelo@hotmail.com",
+      "name": "Maxwell Melo",
+      "city": "Maringá"
+    },
+    {
+      "id": 78,
+      "email": "neilsiqueira@gmail.com",
+      "name": "Neil Siqueira",
+      "city": "São João de Meriti"
+    },
+    {
+      "id": 79,
+      "email": "azaliabatista@hotmail.com",
+      "name": "Azalia Batista",
+      "city": "Lauro de Freitas"
+    },
+    {
+      "id": 80,
+      "email": "serinasampaio@gmail.com",
+      "name": "Serina Sampaio",
+      "city": "Carapicuíba"
+    },
+    {
+      "id": 81,
+      "email": "emersoncabral@gmail.com",
+      "name": "Emerson Cabral",
+      "city": "Gravataí"
+    },
+    {
+      "id": 82,
+      "email": "kionaandrade@hotmail.com",
+      "name": "Kiona Andrade",
+      "city": "Paranaguá"
+    },
+    {
+      "id": 83,
+      "email": "howardcorrea1155@hotmail.com",
+      "name": "Howard Correa",
+      "city": "Olinda"
+    },
+    {
+      "id": 84,
+      "email": "tashafagundes@hotmail.com",
+      "name": "Tasha Fagundes",
+      "city": "Jundiaí"
+    },
+    {
+      "id": 85,
+      "email": "odysseuscabral@hotmail.com",
+      "name": "Odysseus Cabral",
+      "city": "Codó"
+    },
+    {
+      "id": 86,
+      "email": "colleengarcia129@hotmail.com",
+      "name": "Colleen Garcia",
+      "city": "Criciúma"
+    },
+    {
+      "id": 87,
+      "email": "astradesouza@gmail.com",
+      "name": "Astra de Souza",
+      "city": "São Luís"
+    },
+    {
+      "id": 88,
+      "email": "hillarydacosta@gmail.com",
+      "name": "Hillary da Costa",
+      "city": "Luziânia"
+    },
+    {
+      "id": 89,
+      "email": "keefevasconcelos8746@gmail.com",
+      "name": "Keefe Vasconcelos",
+      "city": "Governador Valadares"
+    },
+    {
+      "id": 90,
+      "email": "francescadacruz3553@gmail.com",
+      "name": "Francesca da Cruz",
+      "city": "São Luís"
+    },
+    {
+      "id": 91,
+      "email": "guydearaujo@gmail.com",
+      "name": "Guy de Araujo",
+      "city": "Santa Rita"
+    },
+    {
+      "id": 92,
+      "email": "carterdasgracas@gmail.com",
+      "name": "Carter Das Gracas",
+      "city": "Ribeirão Preto"
+    },
+    {
+      "id": 93,
+      "email": "kayedutra456@gmail.com",
+      "name": "Kaye Dutra",
+      "city": "Londrina"
+    },
+    {
+      "id": 94,
+      "email": "inezfreitas@hotmail.com",
+      "name": "Inez Freitas",
+      "city": "Joinville"
+    },
+    {
+      "id": 95,
+      "email": "staceycardoso@hotmail.com",
+      "name": "Stacey Cardoso",
+      "city": "Bayeux"
+    },
+    {
+      "id": 96,
+      "email": "oceanbrandao@gmail.com",
+      "name": "Ocean Brandao",
+      "city": "Curitiba"
+    },
+    {
+      "id": 97,
+      "email": "kennanrocha9514@hotmail.com",
+      "name": "Kennan Rocha",
+      "city": "Juazeiro do Norte"
+    },
+    {
+      "id": 98,
+      "email": "bethanysouza6426@hotmail.com",
+      "name": "Bethany Souza",
+      "city": "Sobral"
+    },
+    {
+      "id": 99,
+      "email": "hillarydomingos@hotmail.com",
+      "name": "Hillary Domingos",
+      "city": "Curitiba"
+    },
+    {
+      "id": 100,
+      "email": "kermitoliveira@gmail.com",
+      "name": "Kermit Oliveira",
+      "city": "Castanhal"
+    },
+    {
+      "id": 1,
+      "email": "kennanaguiar4063@gmail.com",
+      "name": "Kennan Aguiar",
+      "city": "Nova Iguaçu"
     }
   ]
 }
