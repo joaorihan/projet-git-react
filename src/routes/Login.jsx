@@ -1,27 +1,27 @@
-usuario = 1
-setUsuario = 
+// usuario = 1
+// setUsuario = 
 
-const handleChange = async(e) =>{
-    const{name, value} = e.target;
+// const handleChange = async(e) =>{
+//     const{name, value} = e.target;
 
-    await setUsuario({...usuario, [name]:value})
-}
+//     await setUsuario({...usuario, [name]:value})
+// }
  
 
-const handleSubmit = async(e) =>{
-    e.preventDefault();
+// const handleSubmit = async(e) =>{
+//     e.preventDefault();
 
-    let user;
+//     let user;
 
-    try{
-        const response = await fetch("http://localhost:5000/usuarios");
-        if (response.ok){
-            console.log(response.json())
-        }
-    } catch (error){
-        console.log(error)
-    }
-}
+//     try{
+//         const response = await fetch("http://localhost:5000/usuarios");
+//         if (response.ok){
+//             console.log(response.json())
+//         }
+//     } catch (error){
+//         console.log(error)
+//     }
+// }
 
 // todo: tudo
 
